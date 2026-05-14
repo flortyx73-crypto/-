@@ -1,0 +1,77 @@
+export default function EcoProjectWebsite() {
+  return (
+    <div className="min-h-screen bg-green-50 text-gray-800 font-sans">
+      <header className="bg-green-700 text-white py-10 px-6 text-center shadow-lg">
+        <h1 className="text-5xl font-bold mb-4">Проєкт: Забруднення Землі</h1>
+        <p className="text-xl max-w-3xl mx-auto">
+          Дослідження причин, наслідків та способів боротьби із забрудненням навколишнього середовища.
+        </p>
+      </header>
+
+      <main className="max-w-6xl mx-auto px-6 py-10 space-y-10">
+        <section className="bg-white rounded-3xl shadow-md p-8">
+          <h2 className="text-3xl font-bold text-green-700 mb-4">Що таке забруднення Землі?</h2>
+          <p className="text-lg leading-8">
+            Забруднення Землі — це одна з найбільших екологічних проблем сучасності. Люди щодня викидають сміття,
+            забруднюють повітря, воду та ґрунт. Через це страждає природа, тварини та здоров’я людини.
+          </p>
+        </section>
+
+        <section className="grid md:grid-cols-3 gap-6">
+          <div className="bg-white rounded-3xl shadow-md p-6 hover:scale-105 transition">
+            <h3 className="text-2xl font-semibold text-green-700 mb-3">Причини</h3>
+            <ul className="list-disc ml-5 space-y-2 text-lg">
+              <li>Викиди заводів і фабрик</li>
+              <li>Сміття у природі</li>
+              <li>Вирубка лісів</li>
+              <li>Забруднення транспорту</li>
+            </ul>
+          </div>
+
+          <div className="bg-white rounded-3xl shadow-md p-6 hover:scale-105 transition">
+            <h3 className="text-2xl font-semibold text-green-700 mb-3">Наслідки</h3>
+            <ul className="list-disc ml-5 space-y-2 text-lg">
+              <li>Зміна клімату</li>
+              <li>Загибель тварин</li>
+              <li>Хвороби людей</li>
+              <li>Забруднення води та ґрунту</li>
+            </ul>
+          </div>
+
+          <div className="bg-white rounded-3xl shadow-md p-6 hover:scale-105 transition">
+            <h3 className="text-2xl font-semibold text-green-700 mb-3">Рішення</h3>
+            <ul className="list-disc ml-5 space-y-2 text-lg">
+              <li>Сортування сміття</li>
+              <li>Посадка дерев</li>
+              <li>Переробка пластику</li>
+              <li>Використання екотранспорту</li>
+            </ul>
+          </div>
+        </section>
+
+        <section className="bg-white rounded-3xl shadow-md p-8">
+          <h2 className="text-3xl font-bold text-green-700 mb-4">Чому це важливо?</h2>
+          <p className="text-lg leading-8 mb-4">
+            Якщо люди не почнуть берегти природу, то екологічна ситуація стане набагато гіршою. Уже сьогодні ми
+            можемо бачити забруднені річки, ліси та повітря у великих містах.
+          </p>
+          <p className="text-lg leading-8">
+            Кожна людина може допомогти природі: не смітити, економити воду та електроенергію, сортувати відходи й
+            більше піклуватися про довкілля.
+          </p>
+        </section>
+
+        <section className="bg-green-700 text-white rounded-3xl shadow-lg p-8 text-center">
+          <h2 className="text-4xl font-bold mb-4">Бережімо нашу планету 🌍</h2>
+          <p className="text-xl max-w-3xl mx-auto leading-8">
+            Майбутнє Землі залежить від кожного з нас. Разом ми можемо зробити світ чистішим і безпечнішим.
+          </p>
+        </section>
+      </main>
+
+      <footer className="bg-green-900 text-white text-center py-6 mt-10">
+        <p className="text-lg">Проєкт для школи | Екологія та охорона природи</p>
+      </footer>
+    </div>
+  );
+}
